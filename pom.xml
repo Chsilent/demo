@@ -80,6 +80,12 @@
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
 
+        <!--支持elasticsearch的核心模块-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
+
         <!--热部署 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
